@@ -4,7 +4,7 @@
 #
 Name     : mvn-httpcomponents-core
 Version  : 4.0.1
-Release  : 1
+Release  : 2
 URL      : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source0  : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
@@ -37,22 +37,22 @@ data components for the mvn-httpcomponents-core package.
 
 %install
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.0.1
-cp %{SOURCE0} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.0.1
+cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.0.1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2
-cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2
-
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
-cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
+cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
 cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
-cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
+cp %{SOURCE4} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
 cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
+cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
 
 
 %files
@@ -60,9 +60,9 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponen
 
 %files data
 %defattr(-,root,root,-)
-/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.0.1/4.0.1.tar.gz
-/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.0.1.pom
-/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcomponents-core-4.3.2.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
-/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.0.1.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom

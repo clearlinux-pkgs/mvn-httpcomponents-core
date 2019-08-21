@@ -4,7 +4,7 @@
 #
 Name     : mvn-httpcomponents-core
 Version  : 4.0.1
-Release  : 7
+Release  : 8
 URL      : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source0  : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.0.1/httpcomponents-core-4.0.1.pom
@@ -26,7 +26,8 @@ Source16  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.
 Source17  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
 Source18  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
 Source19  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+Source20  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -121,8 +122,11 @@ cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcompone
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1
 cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1/project-4.1.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6/project-6.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7/project-7.pom
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7/project-7.pom
 
 
 %files
@@ -148,6 +152,7 @@ cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcompone
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1/project-4.1.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6/project-6.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/project/7/project-7.pom
 
 %files license

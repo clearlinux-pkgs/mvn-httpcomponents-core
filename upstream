@@ -1,20 +1,5 @@
 2398a33fe4a1a59a7c5752143a46831537ca572b/4.0.1.tar.gz
 2766fab80fcc4f8bfdfe4f4a7cf151140ec8e0ed/httpcomponents-core-4.0.1.pom
-43dd1af3c408840fa4d19679da7db9c8dec9f7fa/httpcomponents-core-4.4.10.pom
-2766fab80fcc4f8bfdfe4f4a7cf151140ec8e0ed/httpcomponents-core-4.0.1.pom
-35bff8146ac0477f3d3e4d85ef93341e5d3ecdb1/httpcomponents-core-4.3.2.pom
-84c5600018f58510ef3d2c3b5d218bea5d51bbbe/httpcomponents-core-4.4.4.pom
-020c728c32a780a0a41ce5ba6e61891aadf25cf1/httpcomponents-core-4.4.5.pom
-e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar
-d965db94102b75a50bd29938ef67105da1535554/httpcore-4.0.1.pom
-31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar
-13ec787d4bace3aa44734f4196cb659041785339/httpcore-4.3.2.pom
-acc54d9b28bdffe4bbde89ed2e4a1e86b5285e2b/httpcore-4.4.10.jar
-cbbf1989463d9f3e284c1348e50ea8bf426e4e1c/httpcore-4.4.10.pom
-096553966ef79545593062a0c6057a821e39d284/project-4.0.pom
-b63ff67e6ffc1940041319e0e06d7c6b1d671fd2/project-4.1.pom
-c486760d8e0eafe8d4932450e386c2805364f782/project-7.pom
-2766fab80fcc4f8bfdfe4f4a7cf151140ec8e0ed/httpcomponents-core-4.0.1.pom
 35bff8146ac0477f3d3e4d85ef93341e5d3ecdb1/httpcomponents-core-4.3.2.pom
 e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar
 d965db94102b75a50bd29938ef67105da1535554/httpcore-4.0.1.pom
@@ -31,3 +16,6 @@ cbbf1989463d9f3e284c1348e50ea8bf426e4e1c/httpcore-4.4.10.pom
 2766fab80fcc4f8bfdfe4f4a7cf151140ec8e0ed/httpcomponents-core-4.0.1.pom
 b31526a230871fbe285fbcbe2813f9c0839ae9b0/httpcore-4.4.4.jar
 2feaed055f70af1aafd223137e4bd456decc5995/httpcore-4.4.4.pom
+2d503272bf0a8b5f92d64db78b4ba9abbaccc6fd/httpcore-4.2.1.jar
+a3a9baeea5b1c933629fd3cce6329a5a468a41ce/httpcore-4.2.1.pom
+4300d3468b236ce5522ed92a97693ea0b848fa83/httpcomponents-core-4.2.1.pom

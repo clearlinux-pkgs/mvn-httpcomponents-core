@@ -4,7 +4,7 @@
 #
 Name     : mvn-httpcomponents-core
 Version  : 4.0.1
-Release  : 12
+Release  : 13
 URL      : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source0  : https://github.com/apache/httpcomponents-core/archive/4.0.1.tar.gz
 Source1  : http://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar
@@ -19,27 +19,30 @@ Source9  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponen
 Source10  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.1/httpcomponents-core-4.2.1.pom
 Source11  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
 Source12  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
-Source13  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
-Source14  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom
-Source15  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
-Source16  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
-Source17  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
-Source18  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
-Source19  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
-Source20  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
-Source21  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
-Source22  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
-Source23  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
-Source24  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
-Source25  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
-Source26  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
-Source27  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
-Source28  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
-Source29  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
-Source30  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
-Source31  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
-Source32  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
-Source33  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
+Source13  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.11/httpcomponents-core-4.4.11.pom
+Source14  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+Source15  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom
+Source16  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+Source17  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+Source18  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+Source19  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
+Source20  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
+Source21  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+Source22  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+Source23  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+Source24  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
+Source25  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
+Source26  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
+Source27  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar
+Source28  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom
+Source29  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+Source30  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+Source31  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+Source32  : https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+Source33  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.0/project-4.0.pom
+Source34  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/4.1/project-4.1.pom
+Source35  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/6/project-6.pom
+Source36  : https://repo1.maven.org/maven2/org/apache/httpcomponents/project/7/project-7.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : Apache-2.0
@@ -114,68 +117,77 @@ cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcompone
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2
 cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.11
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.11/httpcomponents-core-4.4.11.pom
+
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.4
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.5
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.6
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.1/httpcore-4.2.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.2.2/httpcore-4.2.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.0
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.0/project-4.0.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1/project-4.1.pom
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/4.1/project-4.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6/project-6.pom
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/6/project-6.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7/project-7.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcomponents/project/7/project-7.pom
 
 
 %files
@@ -188,6 +200,7 @@ cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcompone
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.2.2/httpcomponents-core-4.2.2.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.10/httpcomponents-core-4.4.10.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.11/httpcomponents-core-4.4.11.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.4/httpcomponents-core-4.4.4.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.5/httpcomponents-core-4.4.5.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
@@ -207,6 +220,8 @@ cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/org/apache/httpcompone
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.pom
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar
+/usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.pom
 /usr/share/java/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
